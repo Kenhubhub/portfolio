@@ -10,17 +10,24 @@ header{
     justify-content: space-evenly;
     height: 8vh;
     width: 100vw;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(100, 100, 100, 0.3);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     position: fixed;
+    border: solid;
+    
+}
+header:hover{
+    height:20vh;
+    font-size: 2em;
 }
 header p{
     color:white;
     padding: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 #hero{
-    background-image: url("zhenyu-luo-sHtvfNavkQk-unsplash.jpg");
+    background-image: url("ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
