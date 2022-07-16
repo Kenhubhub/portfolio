@@ -23,6 +23,7 @@ header{
 }
 header:hover{
     height:calc(var(--header-height) + 2vh);
+    padding-bottom: 4em;
     font-size: 2em;
 }
 header p{
@@ -51,7 +52,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 #About{
-    padding-top: calc(var(--header-height) + 2vh);
+    padding-top: calc(var(--header-height) + 10vh);
     height: 100vh;
     width: 100vw;
     background-color:black;
@@ -59,4 +60,13 @@ h1{
 }
 #About h1{
     text-align: center;
+}
+#photo-wrap{
+    text-align: center;
+}
+#photo{
+    padding: 2em;
+    width: 300px;
+    border-radius: 50%;
+    
 }
