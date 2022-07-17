@@ -19,6 +19,7 @@ header{
     border-bottom-right-radius: 50%;
     position: fixed;
     border: solid;
+
     
 }
 header:hover{
@@ -30,6 +31,7 @@ header p{
     color:white;
     padding: 1em;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
 }
 header p:hover{
     color: orange;
