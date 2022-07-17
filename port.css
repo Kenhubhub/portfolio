@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    
     text-decoration: none;
 }
 header{
@@ -116,9 +116,10 @@ h1{
     align-items: center;
     justify-content: center;
 }
-.project p{
+.project h2{
     padding: 1em;
 }
+
 video{
     padding: 1em;
     padding-bottom: 0;
@@ -150,10 +151,11 @@ img{
 li{
     text-align: left;
     font-family: 'Raleway', sans-serif;
-    padding: 1em
+    padding: 0.5em
 }
 h4{
-    padding: 1em;
+    
+    
 }
 i{
     font-size: 2em;
@@ -166,5 +168,12 @@ i{
 }
 label{
     padding: 0.25em;
-    font-size: 1.5em;
+    font-size: 1em;
+}
+ul{
+    margin-left: 40px;
+}
+.exception{
+    padding: 1em;
+    list-style: none;
 }
