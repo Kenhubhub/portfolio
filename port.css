@@ -89,9 +89,12 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-image: url("background4.jpg");
+    background-size: 100% 100%;
 }
 #Projects{
     height: fit-content;
+    
 }
 .project{
     width: 400px;
@@ -104,6 +107,8 @@ h1{
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
+    border-style:dashed ;
+    border-color: rgba(100, 100, 100, 0.3);
 }
 .video-container{
     display: flex;
