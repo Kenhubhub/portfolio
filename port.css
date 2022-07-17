@@ -79,6 +79,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 2em;
+    margin-bottom: 10px;
 }
 #flex-project{
     height:fit-content;
@@ -86,6 +87,9 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+#Projects{
+    height: fit-content;
 }
 .project{
     width: 400px;
@@ -114,13 +118,46 @@ video{
     width: 90%;
     height: 90%;
 }
-#Projects h1{
+#Projects h1, #Projects p{
     text-align: center;
     padding: 1em;
+    line-height: 1.5em;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+img{
+    
+    height:95%;
+    width: 95%;
+}
+.gal-link{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+li{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em
+}
+h4{
+    padding: 1em;
+}
+i{
+    font-size: 2em;
+   color: purple
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+label{
+    padding: 0.25em;
+    font-size: 1.5em;
 }
