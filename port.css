@@ -107,7 +107,7 @@ h1{
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
-    border-style:dashed ;
+    border-style: solid;
     border-color: rgba(100, 100, 100, 0.3);
 }
 .video-container{
@@ -153,10 +153,7 @@ li{
     font-family: 'Raleway', sans-serif;
     padding: 0.5em
 }
-h4{
-    
-    
-}
+
 i{
     font-size: 2em;
    color: purple
@@ -174,6 +171,6 @@ ul{
     margin-left: 40px;
 }
 .exception{
-    padding: 1em;
+    padding: 0.5em;
     list-style: none;
 }
