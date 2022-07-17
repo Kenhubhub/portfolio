@@ -94,7 +94,7 @@ h1{
 }
 #Projects{
     height: fit-content;
-    
+
 }
 .project{
     width: 400px;
@@ -126,7 +126,7 @@ video{
     width: 90%;
     height: 90%;
 }
-#Projects h1, #Projects p{
+#Projects h1, #Projects h3{
     text-align: center;
     padding: 1em;
     line-height: 1.5em;
